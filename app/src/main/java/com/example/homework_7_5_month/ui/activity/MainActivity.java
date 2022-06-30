@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         binding.btnDivide.setOnClickListener(v -> {
             String num1 = binding.edFirstNumber.getText().toString().trim();
             String num2 = binding.edSecondNumber.getText().toString().trim();
-            
+
             binding.txtResult.setText(math.divide(num1, num2));
         });
     }
